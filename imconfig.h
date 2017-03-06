@@ -43,6 +43,8 @@
         operator MyVec4() const { return MyVec4(x,y,z,w); }
 */
 
+#define IMGUI_DEFINE_MATH_OPERATORS
+
 //---- Tip: You can add extra functions within the ImGui:: namespace, here or in your own headers files.
 //---- e.g. create variants of the ImGui::Value() helper for your low-level math types, or your own widgets/helpers.
 /*
